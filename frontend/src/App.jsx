@@ -123,7 +123,7 @@ export default function App() {
       </div>
 
       <div className="footer-note">
-        UNIT-CTRL DASHBOARD · Prachi Verma · AI/ML Predictive Maintenance System
+        UNIT-CTRL DASHBOARD · Sayali Mhalaskar · AI/ML Predictive Maintenance System
       </div>
     </div>
   );
