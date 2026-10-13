@@ -1,27 +1,28 @@
 :root {
-  --bg-void: #0a0e12;
-  --bg-panel: #12181f;
-  --bg-panel-raised: #1a222c;
-  --line: #26323f;
-  --line-bright: #38495c;
+  --bg-void: #ffffff;
+  --bg-panel: #ffffff;
+  --bg-panel-raised: #f3f6f9;
+  --line: #d5dde5;
+  --line-bright: #aab8c6;
 
-  --text-primary: #e7edf3;
-  --text-muted: #7c8a99;
-  --text-dim: #4d5967;
+  --text-primary: #111827;
+  --text-muted: #526173;
+  --text-dim: #667085;
 
-  --accent-cyan: #22d3c8;
-  --accent-cyan-dim: rgba(34, 211, 200, 0.15);
-  --accent-amber: #ffab2e;
-  --accent-amber-dim: rgba(255, 171, 46, 0.15);
-  --accent-red: #ff4d4f;
-  --accent-red-dim: rgba(255, 77, 79, 0.15);
-  --accent-blue: #4c8dff;
+  --accent-cyan: #009688;
+  --accent-cyan-dim: rgba(0, 150, 136, 0.12);
+  --accent-amber: #d97706;
+  --accent-amber-dim: rgba(217, 119, 6, 0.12);
+  --accent-red: #dc2626;
+  --accent-red-dim: rgba(220, 38, 38, 0.10);
+  --accent-blue: #2563eb;
 
   --font-display: "Rajdhani", sans-serif;
   --font-mono: "IBM Plex Mono", monospace;
 
-  color-scheme: dark;
+  color-scheme: light;
 }
+
 
 * {
   box-sizing: border-box;
@@ -30,6 +31,7 @@
 html, body, #root {
   height: 100%;
 }
+
 
 body {
   margin: 0;
@@ -41,6 +43,7 @@ body {
   font-family: var(--font-display);
   -webkit-font-smoothing: antialiased;
 }
+
 
 .mono {
   font-family: var(--font-mono);
