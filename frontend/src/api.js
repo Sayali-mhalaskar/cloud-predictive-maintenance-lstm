@@ -3,7 +3,7 @@ import axios from "axios";
 // Point this at your backend. In dev it's localhost:5000; after deploying
 // the backend (Render/Railway) replace with the live URL, or set it via
 // a Vite env var: VITE_API_URL=https://your-backend.onrender.com
-export const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5000";
+export const API_BASE = import.meta.env.VITE_API_URL || "https://n7hetemrkw6v654riqqta7pe6i0lqwnv.lambda-url.ap-southeast-2.on.aws";
 
 const client = axios.create({ baseURL: API_BASE, timeout: 8000 });
 
